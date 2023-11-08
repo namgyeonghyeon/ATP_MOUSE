@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943299899143",
+    "firebase_url": "https://atpproject-885d7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "atpproject-885d7",
+    "storage_bucket": "atpproject-885d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943299899143:android:14734367250a4b6353dfa2",
+        "android_client_info": {
+          "package_name": "com.cookandroid.mouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943299899143-7qcdd6mcnefq89j7fd5lf0jnc89011md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3695_pAJ8V_ilgB75ZQHWxFCURpAEa98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943299899143-7qcdd6mcnefq89j7fd5lf0jnc89011md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

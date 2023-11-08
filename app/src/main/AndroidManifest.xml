@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.mouse">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 외부 URL로부터 동영상을 스트리밍하기 위한 권한. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 재생중 화면 어두워짐, 잠김 방지하기 위한 권한. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ATP MOUSE"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mouse">
+
+        <meta-data
+            android:name="com.samsung.android.icon.container.has_icon_container"
+            android:value="true" />
+        <meta-data android:name="com.dieam.reactnativepushnotification.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity
+            android:name=".Navigation.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".login.RegisetrActivity" />
+        <activity android:name=".Navigation.NaviActivity" />
+        <activity android:name=".login.FindpasswordActivity" />
+    </application>
+
+</manifest>

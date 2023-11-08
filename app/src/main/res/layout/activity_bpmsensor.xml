@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/LineChart2"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:layout_height="350dp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+    <EditText
+        android:id="@+id/bpmEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter bpm" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:onClick="sendBpm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/BpmGage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="170dp"
+            android:fontFamily="@font/font1"
+            android:orientation="vertical"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bpm"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="30sp"
+            android:text="BPM"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/font1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
