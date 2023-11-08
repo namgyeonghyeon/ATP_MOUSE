@@ -39,7 +39,13 @@
 
 
 작품판넬
+
 ![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/7d7e4ff6-2031-4732-b18c-e99ef37dc098)
+
+작품디자인
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/cbdde230-c87e-467e-b658-0697edd0c704)
+
 
 
 [안드로이드 화면]
@@ -71,3 +77,22 @@
 센서값 리스트와 각각 Bpm값과 Temp값이 제품을 통해 데이터를 전달받게 되면 실시간으로 파이썬에서 firebase로 데이터가 넘어간후 어플로 다시 전달받게된다
 
 
+[웹 화면]
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/3ba9188c-dd15-4d60-b04c-459855005a05)
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/1272ba25-768c-4aaf-8cb4-fe62400a0e53)
+
+QR코드로 앱 다운로드 링크제공
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/9e688719-1299-4dda-a12f-20d073a76fba)
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/73283aa2-eddd-482a-8fde-92176a75bbad)
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/45903ab1-d28b-49ed-b0cb-e692f408bb65)
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/a5c9b338-bc87-46d8-adc3-545f2569f12f)
+
+[회로 구성도]
+
+![image](https://github.com/namgyeonghyeon/ATP_MOUSE/assets/129054045/2bb7c772-9144-4c1f-be5e-9196b99113b0)
